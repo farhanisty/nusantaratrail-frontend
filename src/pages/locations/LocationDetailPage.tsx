@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { ArrowLeft, QrCode, Headphones, BookOpen, Star, Download, Plus, Trash2 } from 'lucide-react';
 import toast from 'react-hot-toast';
-import { locationApi, qrApi, audioApi, reviewApi, contentApi } from '../../services/api';
+import { locationApi, qrApi, audioApi, reviewApi } from '../../services/api';
 import { Badge, Spinner, ConfirmDialog, EmptyState, Modal } from '../../components/common';
 import { QRCode, AudioGuide, Review } from '../../types';
 
