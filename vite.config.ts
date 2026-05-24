@@ -7,11 +7,11 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://nusantara-backend-498485862524.asia-southeast2.run.app',
         changeOrigin: true,
       },
       '/uploads': {
-        target: 'http://localhost:3000',
+        target: 'https://nusantara-backend-498485862524.asia-southeast2.run.app',
         changeOrigin: true,
       },
     },
