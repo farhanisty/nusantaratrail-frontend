@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useAuthStore } from '../stores/authStore';
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://nusantara-backend-498485862524.asia-southeast2.run.app/api',
   headers: { 'Content-Type': 'application/json' },
 });
 
