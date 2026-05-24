@@ -1,5 +1,4 @@
 import { useQuery } from '@tanstack/react-query';
-import { useQueryClient } from '@tanstack/react-query';
 import { visitApi, locationApi } from '../../services/api';
 import { PageHeader, Spinner } from '../../components/common';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
