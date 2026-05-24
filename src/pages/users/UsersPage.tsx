@@ -1,7 +1,7 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { userApi } from '../../services/api';
 import { User } from '../../types';
-import { PageHeader, Badge, Spinner, EmptyState } from '../../components/common';
+import { PageHeader, Spinner, EmptyState } from '../../components/common';
 import toast from 'react-hot-toast';
 
 export default function UsersPage() {
