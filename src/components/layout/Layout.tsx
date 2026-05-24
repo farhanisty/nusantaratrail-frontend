@@ -1,7 +1,7 @@
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import {
   LayoutDashboard, MapPin, QrCode, Headphones,
-  BookOpen, Star, BarChart2, Users, LogOut, Menu, X
+  BookOpen, Star, BarChart2, Users, LogOut, Menu
 } from 'lucide-react';
 import { useState } from 'react';
 import { useAuthStore } from '../../stores/authStore';
