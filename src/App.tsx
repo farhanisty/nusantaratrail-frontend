@@ -8,6 +8,7 @@ import LocationDetailPage from './pages/locations/LocationDetailPage';
 import UsersPage from './pages/users/UsersPage';
 import ReportsPage from './pages/reports/ReportsPage';
 import Qrcodespage from './pages/qrcode/Qrcodespage';
+import ContentPage from './pages/content/ContentPage';
 
 // Protected Route
 function Protected({ children, superAdminOnly = false }: { children: React.ReactNode; superAdminOnly?: boolean }) {
@@ -38,7 +39,7 @@ export default function App() {
 
         <Route path="/qrcodes" element={<Protected><Qrcodespage /></Protected>} />
         <Route path="/audio" element={<Protected><Navigate to="/locations" replace /></Protected>} />
-        <Route path="/content" element={<Protected><Navigate to="/locations" replace /></Protected>} />
+        <Route path="/content" element={<Protected><ContentPage /></Protected>} />
         <Route path="/reviews" element={<Protected><Navigate to="/locations" replace /></Protected>} />
 
         {/* Redirect root */}
